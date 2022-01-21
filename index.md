@@ -1,12 +1,13 @@
 <!doctype html>
-<!--Copyright 2017-2020 JellyWare Inc. All Rights Reserved.
+<!--
+Copyright 2017-2020 JellyWare Inc. All Rights Reserved.
 -->
 <html>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="BlueJelly">
-    <!--<meta name="viewport" content="width=640, maximum-scale=1.0, user-scalable=yes">-->
+    <meta name="viewport" content="width=640, maximum-scale=1.0, user-scalable=yes">
     <title>BlueJelly-ESP32  BLE DEMO</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="style.css">
@@ -382,6 +383,20 @@ function Create_grapf() {
 		    }else if(sosimode==1){
 				DisplayB();
 		    }
+		    
+		    if(get_uart==1) display_text = display_text + "<text x='0' y='"+(screen_h/5*4)+"' font-size='50' font-family='メイリオ' stroke='green'  fill='green' text-anchor='start' stroke-width='1'>上</text>";
+		    if(get_uart==2) display_text = display_text + "<text x='0' y='"+(screen_h/5*4)+"' font-size='50' font-family='メイリオ' stroke='green'  fill='green' text-anchor='start' stroke-width='1'>右</text>";
+		    if(get_uart==3) display_text = display_text + "<text x='0' y='"+(screen_h/5*4)+"' font-size='50' font-family='メイリオ' stroke='green'  fill='green' text-anchor='start' stroke-width='1'>下</text>";
+		    if(get_uart==4) display_text = display_text + "<text x='0' y='"+(screen_h/5*4)+"' font-size='50' font-family='メイリオ' stroke='green'  fill='green' text-anchor='start' stroke-width='1'>左</text>";
+		    if(get_uart==5) display_text = display_text + "<text x='0' y='"+(screen_h/5*4)+"' font-size='50' font-family='メイリオ' stroke='magenta'  fill='magenta' text-anchor='start' stroke-width='1'>セット</text>";
+		    if(get_uart==6) display_text = display_text + "<text x='0' y='"+(screen_h/5*4)+"' font-size='50' font-family='メイリオ' stroke='green'  fill='green' text-anchor='start' stroke-width='1'>右上</text>";
+		    if(get_uart==7) display_text = display_text + "<text x='0' y='"+(screen_h/5*4)+"' font-size='50' font-family='メイリオ' stroke='green'  fill='green' text-anchor='start' stroke-width='1'>右下</text>";
+		    if(get_uart==8) display_text = display_text + "<text x='0' y='"+(screen_h/5*4)+"' font-size='50' font-family='メイリオ' stroke='green'  fill='green' text-anchor='start' stroke-width='1'>左下</text>";
+		    if(get_uart==9) display_text = display_text + "<text x='0' y='"+(screen_h/5*4)+"' font-size='50' font-family='メイリオ' stroke='green'  fill='green' text-anchor='start' stroke-width='1'>左上</text>";
+		    if(get_uart==20) display_text = display_text + "<text x='0' y='"+(screen_h/5*4)+"' font-size='50' font-family='メイリオ' stroke='red'  fill='red' text-anchor='start' stroke-width='1'>決定</text>";
+		    if(get_uart==21) display_text = display_text + "<text x='0' y='"+(screen_h/5*4)+"' font-size='50' font-family='メイリオ' stroke='magenta'  fill='magenta' text-anchor='start' stroke-width='1'>決定モード</text>";
+		    
+		    
 		    
 		    display_text += "</svg>"
 	    	document.getElementById("svg").innerHTML =  display_text;
