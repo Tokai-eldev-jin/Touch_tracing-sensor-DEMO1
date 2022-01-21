@@ -322,59 +322,59 @@ function Create_grapf() {
 		        display_text = display_text + pos4_line();
 		        display_text = display_text + pos6_line();
 				display_text = display_text +  pos8_line();
-		        display_text = display_text + "<polygon points='"+(lineX-17*baisu)+","+(lineY-50*baisu)+" "+(lineX+17*baisu)+","+(lineY-50*baisu)+" "+(lineX+17*baisu)+","+(lineY-85*baisu)+"' stroke='cyan' fill='cyan' />"
-		        display_text = display_text + "<polygon points='"+(lineX-17*baisu)+","+(lineY-50*baisu)+" "+(lineX-17*baisu)+","+(lineY-85*baisu)+" "+(lineX+17*baisu)+","+(lineY-85*baisu)+"' stroke='cyan' fill='cyan' />"
-		        display_text = display_text + "<polygon points='"+(lineX-32*baisu)+","+(lineY-85*baisu)+" "+(lineX+0*baisu)+","+(lineY-130*baisu)+" "+(lineX+32*baisu)+","+(lineY-85*baisu)+"' stroke='cyan' fill='cyan' />"
+		        display_text = display_text + "<polygon points='"+(lineX-17*baisu)+","+(lineY-50*baisu)+" "+(lineX+17*baisu)+","+(lineY-50*baisu)+" "+(lineX+17*baisu)+","+(lineY-85*baisu)+"' stroke='orange' fill='orange' />"
+		        display_text = display_text + "<polygon points='"+(lineX-17*baisu)+","+(lineY-50*baisu)+" "+(lineX-17*baisu)+","+(lineY-85*baisu)+" "+(lineX+17*baisu)+","+(lineY-85*baisu)+"' stroke='orange' fill='orange' />"
+		        display_text = display_text + "<polygon points='"+(lineX-32*baisu)+","+(lineY-85*baisu)+" "+(lineX+0*baisu)+","+(lineY-130*baisu)+" "+(lineX+32*baisu)+","+(lineY-85*baisu)+"' stroke='orange' fill='orange' />"
 		      }else if(get_uart==2){
 		        display_text = display_text + pos0_line();
 		        display_text = display_text + pos4_line();
 		        display_text = display_text + pos6_line();
 		        display_text = display_text + pos8_line();
-		        display_text = display_text + "<polygon points='"+(lineX+50*baisu)+","+(lineY-17*baisu)+" "+(lineX+50*baisu)+","+(lineY+17*baisu)+" "+(lineX+85*baisu)+","+(lineY+17*baisu)+"' stroke='cyan' fill='cyan' />"
-		        display_text = display_text + "<polygon points='"+(lineX+50*baisu)+","+(lineY-17*baisu)+" "+(lineX+85*baisu)+","+(lineY-17*baisu)+" "+(lineX+85*baisu)+","+(lineY+17*baisu)+"' stroke='cyan' fill='cyan' />"
-		        display_text = display_text + "<polygon points='"+(lineX+85*baisu)+","+(lineY-32*baisu)+" "+(lineX+130*baisu)+","+(lineY-0*baisu)+" "+(lineX+85*baisu)+","+(lineY+32*baisu)+"' stroke='cyan' fill='cyan' />"
+		        display_text = display_text + "<polygon points='"+(lineX+50*baisu)+","+(lineY-17*baisu)+" "+(lineX+50*baisu)+","+(lineY+17*baisu)+" "+(lineX+85*baisu)+","+(lineY+17*baisu)+"' stroke='orange' fill='orange' />"
+		        display_text = display_text + "<polygon points='"+(lineX+50*baisu)+","+(lineY-17*baisu)+" "+(lineX+85*baisu)+","+(lineY-17*baisu)+" "+(lineX+85*baisu)+","+(lineY+17*baisu)+"' stroke='orange' fill='orange' />"
+		        display_text = display_text + "<polygon points='"+(lineX+85*baisu)+","+(lineY-32*baisu)+" "+(lineX+130*baisu)+","+(lineY-0*baisu)+" "+(lineX+85*baisu)+","+(lineY+32*baisu)+"' stroke='orange' fill='orange' />"
 		      }else if(get_uart==3){
 		        display_text = display_text + pos0_line();
 		        display_text = display_text + pos2_line();
 		        display_text = display_text + pos6_line();
 		        display_text = display_text + pos8_line();
-		        display_text = display_text + "<polygon points='"+(lineX-17*baisu)+","+(lineY+50*baisu)+" "+(lineX+17*baisu)+","+(lineY+50*baisu)+" "+(lineX+17*baisu)+","+(lineY+85*baisu)+"' stroke='cyan' fill='cyan' />"
-		        display_text = display_text + "<polygon points='"+(lineX-17*baisu)+","+(lineY+50*baisu)+" "+(lineX-17*baisu)+","+(lineY+85*baisu)+" "+(lineX+17*baisu)+","+(lineY+85*baisu)+"' stroke='cyan' fill='cyan' />"
-		        display_text = display_text + "<polygon points='"+(lineX-32*baisu)+","+(lineY+85*baisu)+" "+(lineX+0*baisu)+","+(lineY+130*baisu)+" "+(lineX+32*baisu)+","+(lineY+85*baisu)+"' stroke='cyan' fill='cyan' />"  
+		        display_text = display_text + "<polygon points='"+(lineX-17*baisu)+","+(lineY+50*baisu)+" "+(lineX+17*baisu)+","+(lineY+50*baisu)+" "+(lineX+17*baisu)+","+(lineY+85*baisu)+"' stroke='orange' fill='orange' />"
+		        display_text = display_text + "<polygon points='"+(lineX-17*baisu)+","+(lineY+50*baisu)+" "+(lineX-17*baisu)+","+(lineY+85*baisu)+" "+(lineX+17*baisu)+","+(lineY+85*baisu)+"' stroke='orange' fill='orange' />"
+		        display_text = display_text + "<polygon points='"+(lineX-32*baisu)+","+(lineY+85*baisu)+" "+(lineX+0*baisu)+","+(lineY+130*baisu)+" "+(lineX+32*baisu)+","+(lineY+85*baisu)+"' stroke='orange' fill='orange' />"  
 		      }else if(get_uart==4){
 		        display_text = display_text + pos0_line();
 		        display_text = display_text + pos2_line();
 		        display_text = display_text + pos4_line();
 		        display_text = display_text + pos8_line();
-		        display_text = display_text + "<polygon points='"+(lineX-50*baisu)+","+(lineY-17*baisu)+" "+(lineX-50*baisu)+","+(lineY+17*baisu)+" "+(lineX-85*baisu)+","+(lineY+17*baisu)+"' stroke='cyan' fill='cyan' />"
-		        display_text = display_text + "<polygon points='"+(lineX-50*baisu)+","+(lineY-17*baisu)+" "+(lineX-85*baisu)+","+(lineY-17*baisu)+" "+(lineX-85*baisu)+","+(lineY+17*baisu)+"' stroke='cyan' fill='cyan' />"
-		        display_text = display_text + "<polygon points='"+(lineX-85*baisu)+","+(lineY-32*baisu)+" "+(lineX-130*baisu)+","+(lineY+0*baisu)+" "+(lineX-85*baisu)+","+(lineY+32*baisu)+"' stroke='cyan' fill='cyan' />"     
+		        display_text = display_text + "<polygon points='"+(lineX-50*baisu)+","+(lineY-17*baisu)+" "+(lineX-50*baisu)+","+(lineY+17*baisu)+" "+(lineX-85*baisu)+","+(lineY+17*baisu)+"' stroke='orange' fill='orange' />"
+		        display_text = display_text + "<polygon points='"+(lineX-50*baisu)+","+(lineY-17*baisu)+" "+(lineX-85*baisu)+","+(lineY-17*baisu)+" "+(lineX-85*baisu)+","+(lineY+17*baisu)+"' stroke='orange' fill='orange' />"
+		        display_text = display_text + "<polygon points='"+(lineX-85*baisu)+","+(lineY-32*baisu)+" "+(lineX-130*baisu)+","+(lineY+0*baisu)+" "+(lineX-85*baisu)+","+(lineY+32*baisu)+"' stroke='orange' fill='orange' />"     
 		      }else if(get_uart==5){
 		        display_text = display_text + pos0_line();
 		        display_text = display_text + pos2_line();
 		        display_text = display_text + pos4_line();
 		        display_text = display_text + pos6_line();
-				display_text = display_text + "<circle cx='"+lineX+"' cy='"+lineY+"' r='" +30*baisu+"' fill='cyan' />"
+				display_text = display_text + "<circle cx='"+lineX+"' cy='"+lineY+"' r='" +30*baisu+"' fill='orange' />"
 		      }else if(get_uart==20){
 		        display_text = display_text + pos8_line();
-		        display_text = display_text + "<polygon points='"+(lineX-17*baisu)+","+(lineY-50*baisu)+" "+(lineX+17*baisu)+","+(lineY-50*baisu)+" "+(lineX+17*baisu)+","+(lineY-85*baisu)+"' stroke='cyan' fill='cyan' />"
-		        display_text = display_text + "<polygon points='"+(lineX-17*baisu)+","+(lineY-50*baisu)+" "+(lineX-17*baisu)+","+(lineY-85*baisu)+" "+(lineX+17*baisu)+","+(lineY-85*baisu)+"' stroke='cyan' fill='cyan' />"
-		        display_text = display_text + "<polygon points='"+(lineX-32*baisu)+","+(lineY-85*baisu)+" "+(lineX+0*baisu)+","+(lineY-130*baisu)+" "+(lineX+32*baisu)+","+(lineY-85*baisu)+"' stroke='cyan' fill='cyan' />"
+		        display_text = display_text + "<polygon points='"+(lineX-17*baisu)+","+(lineY-50*baisu)+" "+(lineX+17*baisu)+","+(lineY-50*baisu)+" "+(lineX+17*baisu)+","+(lineY-85*baisu)+"' stroke='orange' fill='orange' />"
+		        display_text = display_text + "<polygon points='"+(lineX-17*baisu)+","+(lineY-50*baisu)+" "+(lineX-17*baisu)+","+(lineY-85*baisu)+" "+(lineX+17*baisu)+","+(lineY-85*baisu)+"' stroke='orange' fill='orange' />"
+		        display_text = display_text + "<polygon points='"+(lineX-32*baisu)+","+(lineY-85*baisu)+" "+(lineX+0*baisu)+","+(lineY-130*baisu)+" "+(lineX+32*baisu)+","+(lineY-85*baisu)+"' stroke='orange' fill='orange' />"
 		        
-		        display_text = display_text + "<polygon points='"+(lineX+50*baisu)+","+(lineY-17*baisu)+" "+(lineX+50*baisu)+","+(lineY+17*baisu)+" "+(lineX+85*baisu)+","+(lineY+17*baisu)+"' stroke='cyan' fill='cyan' />"
-		        display_text = display_text + "<polygon points='"+(lineX+50*baisu)+","+(lineY-17*baisu)+" "+(lineX+85*baisu)+","+(lineY-17*baisu)+" "+(lineX+85*baisu)+","+(lineY+17*baisu)+"' stroke='cyan' fill='cyan' />"
-		        display_text = display_text + "<polygon points='"+(lineX+85*baisu)+","+(lineY-32*baisu)+" "+(lineX+130*baisu)+","+(lineY-0*baisu)+" "+(lineX+85*baisu)+","+(lineY+32*baisu)+"' stroke='cyan' fill='cyan' />"
+		        display_text = display_text + "<polygon points='"+(lineX+50*baisu)+","+(lineY-17*baisu)+" "+(lineX+50*baisu)+","+(lineY+17*baisu)+" "+(lineX+85*baisu)+","+(lineY+17*baisu)+"' stroke='orange' fill='orange' />"
+		        display_text = display_text + "<polygon points='"+(lineX+50*baisu)+","+(lineY-17*baisu)+" "+(lineX+85*baisu)+","+(lineY-17*baisu)+" "+(lineX+85*baisu)+","+(lineY+17*baisu)+"' stroke='orange' fill='orange' />"
+		        display_text = display_text + "<polygon points='"+(lineX+85*baisu)+","+(lineY-32*baisu)+" "+(lineX+130*baisu)+","+(lineY-0*baisu)+" "+(lineX+85*baisu)+","+(lineY+32*baisu)+"' stroke='orange' fill='orange' />"
 		        
-		        display_text = display_text + "<polygon points='"+(lineX-17*baisu)+","+(lineY+50*baisu)+" "+(lineX+17*baisu)+","+(lineY+50*baisu)+" "+(lineX+17*baisu)+","+(lineY+85*baisu)+"' stroke='cyan' fill='cyan' />"
-		        display_text = display_text + "<polygon points='"+(lineX-17*baisu)+","+(lineY+50*baisu)+" "+(lineX-17*baisu)+","+(lineY+85*baisu)+" "+(lineX+17*baisu)+","+(lineY+85*baisu)+"' stroke='cyan' fill='cyan' />"
-		        display_text = display_text + "<polygon points='"+(lineX-32*baisu)+","+(lineY+85*baisu)+" "+(lineX+0*baisu)+","+(lineY+130*baisu)+" "+(lineX+32*baisu)+","+(lineY+85*baisu)+"' stroke='cyan' fill='cyan' />"
+		        display_text = display_text + "<polygon points='"+(lineX-17*baisu)+","+(lineY+50*baisu)+" "+(lineX+17*baisu)+","+(lineY+50*baisu)+" "+(lineX+17*baisu)+","+(lineY+85*baisu)+"' stroke='orange' fill='orange' />"
+		        display_text = display_text + "<polygon points='"+(lineX-17*baisu)+","+(lineY+50*baisu)+" "+(lineX-17*baisu)+","+(lineY+85*baisu)+" "+(lineX+17*baisu)+","+(lineY+85*baisu)+"' stroke='orange' fill='orange' />"
+		        display_text = display_text + "<polygon points='"+(lineX-32*baisu)+","+(lineY+85*baisu)+" "+(lineX+0*baisu)+","+(lineY+130*baisu)+" "+(lineX+32*baisu)+","+(lineY+85*baisu)+"' stroke='orange' fill='orange' />"
 		        
-		        display_text = display_text + "<polygon points='"+(lineX-50*baisu)+","+(lineY-17*baisu)+" "+(lineX-50*baisu)+","+(lineY+17*baisu)+" "+(lineX-85*baisu)+","+(lineY+17*baisu)+"' stroke='cyan' fill='cyan' />";
-		        display_text = display_text + "<polygon points='"+(lineX-50*baisu)+","+(lineY-17*baisu)+" "+(lineX-85*baisu)+","+(lineY-17*baisu)+" "+(lineX-85*baisu)+","+(lineY+17*baisu)+"' stroke='cyan' fill='cyan' />"
-		        display_text = display_text + "<polygon points='"+(lineX-85*baisu)+","+(lineY-32*baisu)+" "+(lineX-130*baisu)+","+(lineY+0*baisu)+" "+(lineX-85*baisu)+","+(lineY+32*baisu)+"' stroke='cyan' fill='cyan' />"
+		        display_text = display_text + "<polygon points='"+(lineX-50*baisu)+","+(lineY-17*baisu)+" "+(lineX-50*baisu)+","+(lineY+17*baisu)+" "+(lineX-85*baisu)+","+(lineY+17*baisu)+"' stroke='orange' fill='orange' />";
+		        display_text = display_text + "<polygon points='"+(lineX-50*baisu)+","+(lineY-17*baisu)+" "+(lineX-85*baisu)+","+(lineY-17*baisu)+" "+(lineX-85*baisu)+","+(lineY+17*baisu)+"' stroke='orange' fill='orange' />"
+		        display_text = display_text + "<polygon points='"+(lineX-85*baisu)+","+(lineY-32*baisu)+" "+(lineX-130*baisu)+","+(lineY+0*baisu)+" "+(lineX-85*baisu)+","+(lineY+32*baisu)+"' stroke='orange' fill='orange' />"
 		      
 		      }else if(get_uart==21){
-		     	display_text = display_text + "<circle cx='"+lineX+"' cy='"+lineY+"' r='" +29*baisu+"' fill='navy' />"
+		     	display_text = display_text + "<circle cx='"+lineX+"' cy='"+lineY+"' r='" +29*baisu+"' fill='orangered' />"
 		        display_text = display_text + pos0_line();
 		        display_text = display_text + pos2_line();
 		        display_text = display_text + pos4_line();
@@ -422,9 +422,9 @@ function display1(){
 	display_text = display_text + pos6_line();
 	display_text = display_text + pos7_line();
 	display_text = display_text + pos8_line();
-	display_text = display_text + "<polygon points='"+(lineX-17*baisu)+","+(lineY-50*baisu)+" "+(lineX+17*baisu)+","+(lineY-50*baisu)+" "+(lineX+17*baisu)+","+(lineY-85*baisu)+"' stroke='cyan' fill='cyan' />"
-	display_text = display_text + "<polygon points='"+(lineX-17*baisu)+","+(lineY-50*baisu)+" "+(lineX-17*baisu)+","+(lineY-85*baisu)+" "+(lineX+17*baisu)+","+(lineY-85*baisu)+"' stroke='cyan' fill='cyan' />"
-	display_text = display_text + "<polygon points='"+(lineX-32*baisu)+","+(lineY-85*baisu)+" "+(lineX+0*baisu)+","+(lineY-130*baisu)+" "+(lineX+32*baisu)+","+(lineY-85*baisu)+"' stroke='cyan' fill='cyan' />"
+	display_text = display_text + "<polygon points='"+(lineX-17*baisu)+","+(lineY-50*baisu)+" "+(lineX+17*baisu)+","+(lineY-50*baisu)+" "+(lineX+17*baisu)+","+(lineY-85*baisu)+"' stroke='orange' fill='orange' />"
+	display_text = display_text + "<polygon points='"+(lineX-17*baisu)+","+(lineY-50*baisu)+" "+(lineX-17*baisu)+","+(lineY-85*baisu)+" "+(lineX+17*baisu)+","+(lineY-85*baisu)+"' stroke='orange' fill='orange' />"
+	display_text = display_text + "<polygon points='"+(lineX-32*baisu)+","+(lineY-85*baisu)+" "+(lineX+0*baisu)+","+(lineY-130*baisu)+" "+(lineX+32*baisu)+","+(lineY-85*baisu)+"' stroke='orange' fill='orange' />"
 }
 
 function display2(){
@@ -436,9 +436,9 @@ function display2(){
 	display_text = display_text + pos6_line();
 	display_text = display_text + pos7_line();
 	display_text = display_text + pos8_line();
-	display_text = display_text + "<polygon points='"+(lineX+50*baisu)+","+(lineY-17*baisu)+" "+(lineX+50*baisu)+","+(lineY+17*baisu)+" "+(lineX+85*baisu)+","+(lineY+17*baisu)+"' stroke='cyan' fill='cyan' />"
-	display_text = display_text + "<polygon points='"+(lineX+50*baisu)+","+(lineY-17*baisu)+" "+(lineX+85*baisu)+","+(lineY-17*baisu)+" "+(lineX+85*baisu)+","+(lineY+17*baisu)+"' stroke='cyan' fill='cyan' />"
-	display_text = display_text + "<polygon points='"+(lineX+85*baisu)+","+(lineY-32*baisu)+" "+(lineX+130*baisu)+","+(lineY-0*baisu)+" "+(lineX+85*baisu)+","+(lineY+32*baisu)+"' stroke='cyan' fill='cyan' />"
+	display_text = display_text + "<polygon points='"+(lineX+50*baisu)+","+(lineY-17*baisu)+" "+(lineX+50*baisu)+","+(lineY+17*baisu)+" "+(lineX+85*baisu)+","+(lineY+17*baisu)+"' stroke='orange' fill='orange' />"
+	display_text = display_text + "<polygon points='"+(lineX+50*baisu)+","+(lineY-17*baisu)+" "+(lineX+85*baisu)+","+(lineY-17*baisu)+" "+(lineX+85*baisu)+","+(lineY+17*baisu)+"' stroke='orange' fill='orange' />"
+	display_text = display_text + "<polygon points='"+(lineX+85*baisu)+","+(lineY-32*baisu)+" "+(lineX+130*baisu)+","+(lineY-0*baisu)+" "+(lineX+85*baisu)+","+(lineY+32*baisu)+"' stroke='orange' fill='orange' />"
 }
 
 function display3(){
@@ -450,9 +450,9 @@ function display3(){
 	display_text = display_text + pos6_line();
 	display_text = display_text + pos7_line();
 	display_text = display_text + pos8_line();
-	display_text = display_text + "<polygon points='"+(lineX-17*baisu)+","+(lineY+50*baisu)+" "+(lineX+17*baisu)+","+(lineY+50*baisu)+" "+(lineX+17*baisu)+","+(lineY+85*baisu)+"' stroke='cyan' fill='cyan' />"
-	display_text = display_text + "<polygon points='"+(lineX-17*baisu)+","+(lineY+50*baisu)+" "+(lineX-17*baisu)+","+(lineY+85*baisu)+" "+(lineX+17*baisu)+","+(lineY+85*baisu)+"' stroke='cyan' fill='cyan' />"
-	display_text = display_text + "<polygon points='"+(lineX-32*baisu)+","+(lineY+85*baisu)+" "+(lineX+0*baisu)+","+(lineY+130*baisu)+" "+(lineX+32*baisu)+","+(lineY+85*baisu)+"' stroke='cyan' fill='cyan' />"   
+	display_text = display_text + "<polygon points='"+(lineX-17*baisu)+","+(lineY+50*baisu)+" "+(lineX+17*baisu)+","+(lineY+50*baisu)+" "+(lineX+17*baisu)+","+(lineY+85*baisu)+"' stroke='orange' fill='orange' />"
+	display_text = display_text + "<polygon points='"+(lineX-17*baisu)+","+(lineY+50*baisu)+" "+(lineX-17*baisu)+","+(lineY+85*baisu)+" "+(lineX+17*baisu)+","+(lineY+85*baisu)+"' stroke='orange' fill='orange' />"
+	display_text = display_text + "<polygon points='"+(lineX-32*baisu)+","+(lineY+85*baisu)+" "+(lineX+0*baisu)+","+(lineY+130*baisu)+" "+(lineX+32*baisu)+","+(lineY+85*baisu)+"' stroke='orange' fill='orange' />"   
 }
 
 function display4(){
@@ -464,9 +464,9 @@ function display4(){
 	display_text = display_text + pos5_line();
 	display_text = display_text + pos7_line();
 	display_text = display_text + pos8_line();
-	display_text = display_text + "<polygon points='"+(lineX-50*baisu)+","+(lineY-17*baisu)+" "+(lineX-50*baisu)+","+(lineY+17*baisu)+" "+(lineX-85*baisu)+","+(lineY+17*baisu)+"' stroke='cyan' fill='cyan' />"
-	display_text = display_text + "<polygon points='"+(lineX-50*baisu)+","+(lineY-17*baisu)+" "+(lineX-85*baisu)+","+(lineY-17*baisu)+" "+(lineX-85*baisu)+","+(lineY+17*baisu)+"' stroke='cyan' fill='cyan' />"
-	display_text = display_text + "<polygon points='"+(lineX-85*baisu)+","+(lineY-32*baisu)+" "+(lineX-130*baisu)+","+(lineY+0*baisu)+" "+(lineX-85*baisu)+","+(lineY+32*baisu)+"' stroke='cyan' fill='cyan' />"
+	display_text = display_text + "<polygon points='"+(lineX-50*baisu)+","+(lineY-17*baisu)+" "+(lineX-50*baisu)+","+(lineY+17*baisu)+" "+(lineX-85*baisu)+","+(lineY+17*baisu)+"' stroke='orange' fill='orange' />"
+	display_text = display_text + "<polygon points='"+(lineX-50*baisu)+","+(lineY-17*baisu)+" "+(lineX-85*baisu)+","+(lineY-17*baisu)+" "+(lineX-85*baisu)+","+(lineY+17*baisu)+"' stroke='orange' fill='orange' />"
+	display_text = display_text + "<polygon points='"+(lineX-85*baisu)+","+(lineY-32*baisu)+" "+(lineX-130*baisu)+","+(lineY+0*baisu)+" "+(lineX-85*baisu)+","+(lineY+32*baisu)+"' stroke='orange' fill='orange' />"
 }
 
 function display5(){
@@ -478,7 +478,7 @@ function display5(){
 	display_text = display_text + pos5_line();
 	display_text = display_text + pos6_line();
 	display_text = display_text + pos7_line();
-	display_text = display_text + "<circle cx='"+lineX+"' cy='"+lineY+"' r='" +30*baisu+"' fill='cyan' />";
+	display_text = display_text + "<circle cx='"+lineX+"' cy='"+lineY+"' r='" +30*baisu+"' fill='orange' />";
 }
 
 function display6(){
@@ -490,9 +490,9 @@ function display6(){
 	display_text = display_text + pos6_line();
 	display_text = display_text + pos7_line();
 	display_text = display_text + pos8_line();
-	display_text = display_text + "<polygon points='"+(lineX+23*baisu)+","+(lineY-47*baisu)+" "+(lineX+47*baisu)+","+(lineY-23*baisu)+" "+(lineX+48*baisu)+","+(lineY-72*baisu)+"' stroke='cyan' fill='cyan' />"
-	display_text = display_text + "<polygon points='"+(lineX+72*baisu)+","+(lineY-48*baisu)+" "+(lineX+47*baisu)+","+(lineY-23*baisu)+" "+(lineX+48*baisu)+","+(lineY-72*baisu)+"' stroke='cyan' fill='cyan' />"
-	display_text = display_text + "<polygon points='"+(lineX+37*baisu)+","+(lineY-83*baisu)+" "+(lineX+82*baisu)+","+(lineY-37*baisu)+" "+(lineX+92*baisu)+","+(lineY-92*baisu)+"' stroke='cyan' fill='cyan' />"
+	display_text = display_text + "<polygon points='"+(lineX+23*baisu)+","+(lineY-47*baisu)+" "+(lineX+47*baisu)+","+(lineY-23*baisu)+" "+(lineX+48*baisu)+","+(lineY-72*baisu)+"' stroke='orange' fill='orange' />"
+	display_text = display_text + "<polygon points='"+(lineX+72*baisu)+","+(lineY-48*baisu)+" "+(lineX+47*baisu)+","+(lineY-23*baisu)+" "+(lineX+48*baisu)+","+(lineY-72*baisu)+"' stroke='orange' fill='orange' />"
+	display_text = display_text + "<polygon points='"+(lineX+37*baisu)+","+(lineY-83*baisu)+" "+(lineX+82*baisu)+","+(lineY-37*baisu)+" "+(lineX+92*baisu)+","+(lineY-92*baisu)+"' stroke='orange' fill='orange' />"
 }
 
 function display7(){
@@ -504,9 +504,9 @@ function display7(){
 	display_text = display_text + pos6_line();
 	display_text = display_text + pos7_line();
 	display_text = display_text + pos8_line();
-	display_text = display_text + "<polygon points='"+(lineX+23*baisu)+","+(lineY+47*baisu)+" "+(lineX+47*baisu)+","+(lineY+23*baisu)+" "+(lineX+48*baisu)+","+(lineY+72*baisu)+"' stroke='cyan' fill='cyan' />"
-	display_text = display_text + "<polygon points='"+(lineX+72*baisu)+","+(lineY+48*baisu)+" "+(lineX+47*baisu)+","+(lineY+23*baisu)+" "+(lineX+48*baisu)+","+(lineY+72*baisu)+"' stroke='cyan' fill='cyan' />"
-	display_text = display_text + "<polygon points='"+(lineX+37*baisu)+","+(lineY+83*baisu)+" "+(lineX+82*baisu)+","+(lineY+37*baisu)+" "+(lineX+92*baisu)+","+(lineY+92*baisu)+"' stroke='cyan' fill='cyan' />"
+	display_text = display_text + "<polygon points='"+(lineX+23*baisu)+","+(lineY+47*baisu)+" "+(lineX+47*baisu)+","+(lineY+23*baisu)+" "+(lineX+48*baisu)+","+(lineY+72*baisu)+"' stroke='orange' fill='orange' />"
+	display_text = display_text + "<polygon points='"+(lineX+72*baisu)+","+(lineY+48*baisu)+" "+(lineX+47*baisu)+","+(lineY+23*baisu)+" "+(lineX+48*baisu)+","+(lineY+72*baisu)+"' stroke='orange' fill='orange' />"
+	display_text = display_text + "<polygon points='"+(lineX+37*baisu)+","+(lineY+83*baisu)+" "+(lineX+82*baisu)+","+(lineY+37*baisu)+" "+(lineX+92*baisu)+","+(lineY+92*baisu)+"' stroke='orange' fill='orange' />"
 }
 
 function display8(){
@@ -518,9 +518,9 @@ function display8(){
 	display_text = display_text + pos6_line();
 	display_text = display_text + pos7_line();
 	display_text = display_text + pos8_line();
-	display_text = display_text + "<polygon points='"+(lineX-23*baisu)+","+(lineY+47*baisu)+" "+(lineX-47*baisu)+","+(lineY+23*baisu)+" "+(lineX-48*baisu)+","+(lineY+72*baisu)+"' stroke='cyan' fill='cyan' />"
-	display_text = display_text + "<polygon points='"+(lineX-72*baisu)+","+(lineY+48*baisu)+" "+(lineX-47*baisu)+","+(lineY+23*baisu)+" "+(lineX-48*baisu)+","+(lineY+72*baisu)+"' stroke='cyan' fill='cyan' />"
-	display_text = display_text + "<polygon points='"+(lineX-37*baisu)+","+(lineY+83*baisu)+" "+(lineX-82*baisu)+","+(lineY+37*baisu)+" "+(lineX-92*baisu)+","+(lineY+92*baisu)+"' stroke='cyan' fill='cyan' />"
+	display_text = display_text + "<polygon points='"+(lineX-23*baisu)+","+(lineY+47*baisu)+" "+(lineX-47*baisu)+","+(lineY+23*baisu)+" "+(lineX-48*baisu)+","+(lineY+72*baisu)+"' stroke='orange' fill='orange' />"
+	display_text = display_text + "<polygon points='"+(lineX-72*baisu)+","+(lineY+48*baisu)+" "+(lineX-47*baisu)+","+(lineY+23*baisu)+" "+(lineX-48*baisu)+","+(lineY+72*baisu)+"' stroke='orange' fill='orange' />"
+	display_text = display_text + "<polygon points='"+(lineX-37*baisu)+","+(lineY+83*baisu)+" "+(lineX-82*baisu)+","+(lineY+37*baisu)+" "+(lineX-92*baisu)+","+(lineY+92*baisu)+"' stroke='orange' fill='orange' />"
 }
 
 function display9(){
@@ -532,48 +532,48 @@ function display9(){
 	display_text = display_text + pos5_line();
 	display_text = display_text + pos6_line();
 	display_text = display_text + pos8_line();
-	display_text = display_text + "<polygon points='"+(lineX-23*baisu)+","+(lineY-47*baisu)+" "+(lineX-47*baisu)+","+(lineY-23*baisu)+" "+(lineX-48*baisu)+","+(lineY-72*baisu)+"' stroke='cyan' fill='cyan' />"
-	display_text = display_text + "<polygon points='"+(lineX-72*baisu)+","+(lineY-48*baisu)+" "+(lineX-47*baisu)+","+(lineY-23*baisu)+" "+(lineX-48*baisu)+","+(lineY-72*baisu)+"' stroke='cyan' fill='cyan' />"
-	display_text = display_text + "<polygon points='"+(lineX-37*baisu)+","+(lineY-83*baisu)+" "+(lineX-82*baisu)+","+(lineY-37*baisu)+" "+(lineX-92*baisu)+","+(lineY-92*baisu)+"' stroke='cyan' fill='cyan' />"
+	display_text = display_text + "<polygon points='"+(lineX-23*baisu)+","+(lineY-47*baisu)+" "+(lineX-47*baisu)+","+(lineY-23*baisu)+" "+(lineX-48*baisu)+","+(lineY-72*baisu)+"' stroke='orange' fill='orange' />"
+	display_text = display_text + "<polygon points='"+(lineX-72*baisu)+","+(lineY-48*baisu)+" "+(lineX-47*baisu)+","+(lineY-23*baisu)+" "+(lineX-48*baisu)+","+(lineY-72*baisu)+"' stroke='orange' fill='orange' />"
+	display_text = display_text + "<polygon points='"+(lineX-37*baisu)+","+(lineY-83*baisu)+" "+(lineX-82*baisu)+","+(lineY-37*baisu)+" "+(lineX-92*baisu)+","+(lineY-92*baisu)+"' stroke='orange' fill='orange' />"
 }
 
 function display20(){
 	display_text = display_text + pos8_line();
-	display_text = display_text + "<polygon points='"+(lineX-17*baisu)+","+(lineY-50*baisu)+" "+(lineX+17*baisu)+","+(lineY-50*baisu)+" "+(lineX+17*baisu)+","+(lineY-85*baisu)+"' stroke='navy' fill='navy' />"
-	display_text = display_text + "<polygon points='"+(lineX-17*baisu)+","+(lineY-50*baisu)+" "+(lineX-17*baisu)+","+(lineY-85*baisu)+" "+(lineX+17*baisu)+","+(lineY-85*baisu)+"' stroke='navy' fill='navy' />"
-	display_text = display_text + "<polygon points='"+(lineX-32*baisu)+","+(lineY-85*baisu)+" "+(lineX-0*baisu)+","+(lineY-130*baisu)+" "+(lineX+32*baisu)+","+(lineY-85*baisu)+"' stroke='navy' fill='navy' />"          
+	display_text = display_text + "<polygon points='"+(lineX-17*baisu)+","+(lineY-50*baisu)+" "+(lineX+17*baisu)+","+(lineY-50*baisu)+" "+(lineX+17*baisu)+","+(lineY-85*baisu)+"' stroke='orangered' fill='orangered' />"
+	display_text = display_text + "<polygon points='"+(lineX-17*baisu)+","+(lineY-50*baisu)+" "+(lineX-17*baisu)+","+(lineY-85*baisu)+" "+(lineX+17*baisu)+","+(lineY-85*baisu)+"' stroke='orangered' fill='orangered' />"
+	display_text = display_text + "<polygon points='"+(lineX-32*baisu)+","+(lineY-85*baisu)+" "+(lineX-0*baisu)+","+(lineY-130*baisu)+" "+(lineX+32*baisu)+","+(lineY-85*baisu)+"' stroke='orangered' fill='orangered' />"          
 
-	display_text = display_text + "<polygon points='"+(lineX+50*baisu)+","+(lineY-17*baisu)+" "+(lineX+50*baisu)+","+(lineY+17*baisu)+" "+(lineX+85*baisu)+","+(lineY+17*baisu)+"' stroke='navy' fill='navy' />"
-	display_text = display_text + "<polygon points='"+(lineX+50*baisu)+","+(lineY-17*baisu)+" "+(lineX+85*baisu)+","+(lineY-17*baisu)+" "+(lineX+85*baisu)+","+(lineY+17*baisu)+"' stroke='navy' fill='navy' />"
-	display_text = display_text + "<polygon points='"+(lineX+85*baisu)+","+(lineY-32*baisu)+" "+(lineX+130*baisu)+","+(lineY-0*baisu)+" "+(lineX+85*baisu)+","+(lineY+32*baisu)+"' stroke='navy' fill='navy' />"         
+	display_text = display_text + "<polygon points='"+(lineX+50*baisu)+","+(lineY-17*baisu)+" "+(lineX+50*baisu)+","+(lineY+17*baisu)+" "+(lineX+85*baisu)+","+(lineY+17*baisu)+"' stroke='orangered' fill='orangered' />"
+	display_text = display_text + "<polygon points='"+(lineX+50*baisu)+","+(lineY-17*baisu)+" "+(lineX+85*baisu)+","+(lineY-17*baisu)+" "+(lineX+85*baisu)+","+(lineY+17*baisu)+"' stroke='orangered' fill='orangered' />"
+	display_text = display_text + "<polygon points='"+(lineX+85*baisu)+","+(lineY-32*baisu)+" "+(lineX+130*baisu)+","+(lineY-0*baisu)+" "+(lineX+85*baisu)+","+(lineY+32*baisu)+"' stroke='orangered' fill='orangered' />"         
 	
-	display_text = display_text + "<polygon points='"+(lineX-17*baisu)+","+(lineY+50*baisu)+" "+(lineX+17*baisu)+","+(lineY+50*baisu)+" "+(lineX+17*baisu)+","+(lineY+85*baisu)+"' stroke='navy' fill='navy' />"
-	display_text = display_text + "<polygon points='"+(lineX-17*baisu)+","+(lineY+50*baisu)+" "+(lineX-17*baisu)+","+(lineY+85*baisu)+" "+(lineX+17*baisu)+","+(lineY+85*baisu)+"' stroke='navy' fill='navy' />"
-	display_text = display_text + "<polygon points='"+(lineX-32*baisu)+","+(lineY+85*baisu)+" "+(lineX+0*baisu)+","+(lineY+130*baisu)+" "+(lineX+32*baisu)+","+(lineY+85*baisu)+"' stroke='navy' fill='navy' />"
+	display_text = display_text + "<polygon points='"+(lineX-17*baisu)+","+(lineY+50*baisu)+" "+(lineX+17*baisu)+","+(lineY+50*baisu)+" "+(lineX+17*baisu)+","+(lineY+85*baisu)+"' stroke='orangered' fill='orangered' />"
+	display_text = display_text + "<polygon points='"+(lineX-17*baisu)+","+(lineY+50*baisu)+" "+(lineX-17*baisu)+","+(lineY+85*baisu)+" "+(lineX+17*baisu)+","+(lineY+85*baisu)+"' stroke='orangered' fill='orangered' />"
+	display_text = display_text + "<polygon points='"+(lineX-32*baisu)+","+(lineY+85*baisu)+" "+(lineX+0*baisu)+","+(lineY+130*baisu)+" "+(lineX+32*baisu)+","+(lineY+85*baisu)+"' stroke='orangered' fill='orangered' />"
 	
-	display_text = display_text + "<polygon points='"+(lineX-50*baisu)+","+(lineY-17*baisu)+" "+(lineX-50*baisu)+","+(lineY+17*baisu)+" "+(lineX-85*baisu)+","+(lineY+17*baisu)+"' stroke='navy' fill='navy' />"
-	display_text = display_text + "<polygon points='"+(lineX-50*baisu)+","+(lineY-17*baisu)+" "+(lineX-85*baisu)+","+(lineY-17*baisu)+" "+(lineX-85*baisu)+","+(lineY+17*baisu)+"' stroke='navy' fill='navy' />"
-	display_text = display_text + "<polygon points='"+(lineX-85*baisu)+","+(lineY-32*baisu)+" "+(lineX-130*baisu)+","+(lineY-0*baisu)+" "+(lineX-85*baisu)+","+(lineY+32*baisu)+"' stroke='navy' fill='navy' />"
+	display_text = display_text + "<polygon points='"+(lineX-50*baisu)+","+(lineY-17*baisu)+" "+(lineX-50*baisu)+","+(lineY+17*baisu)+" "+(lineX-85*baisu)+","+(lineY+17*baisu)+"' stroke='orangered' fill='orangered' />"
+	display_text = display_text + "<polygon points='"+(lineX-50*baisu)+","+(lineY-17*baisu)+" "+(lineX-85*baisu)+","+(lineY-17*baisu)+" "+(lineX-85*baisu)+","+(lineY+17*baisu)+"' stroke='orangered' fill='orangered' />"
+	display_text = display_text + "<polygon points='"+(lineX-85*baisu)+","+(lineY-32*baisu)+" "+(lineX-130*baisu)+","+(lineY-0*baisu)+" "+(lineX-85*baisu)+","+(lineY+32*baisu)+"' stroke='orangered' fill='orangered' />"
 	
-	display_text = display_text + "<polygon points='"+(lineX+23*baisu)+","+(lineY-47*baisu)+" "+(lineX+47*baisu)+","+(lineY-23*baisu)+" "+(lineX+48*baisu)+","+(lineY-72*baisu)+"' stroke='navy' fill='navy' />"
-	display_text = display_text + "<polygon points='"+(lineX+72*baisu)+","+(lineY-48*baisu)+" "+(lineX+47*baisu)+","+(lineY-23*baisu)+" "+(lineX+48*baisu)+","+(lineY-72*baisu)+"' stroke='navy' fill='navy' />"
-	display_text = display_text + "<polygon points='"+(lineX+37*baisu)+","+(lineY-83*baisu)+" "+(lineX+82*baisu)+","+(lineY-37*baisu)+" "+(lineX+92*baisu)+","+(lineY-92*baisu)+"' stroke='navy' fill='navy' />"  
+	display_text = display_text + "<polygon points='"+(lineX+23*baisu)+","+(lineY-47*baisu)+" "+(lineX+47*baisu)+","+(lineY-23*baisu)+" "+(lineX+48*baisu)+","+(lineY-72*baisu)+"' stroke='orangered' fill='orangered' />"
+	display_text = display_text + "<polygon points='"+(lineX+72*baisu)+","+(lineY-48*baisu)+" "+(lineX+47*baisu)+","+(lineY-23*baisu)+" "+(lineX+48*baisu)+","+(lineY-72*baisu)+"' stroke='orangered' fill='orangered' />"
+	display_text = display_text + "<polygon points='"+(lineX+37*baisu)+","+(lineY-83*baisu)+" "+(lineX+82*baisu)+","+(lineY-37*baisu)+" "+(lineX+92*baisu)+","+(lineY-92*baisu)+"' stroke='orangered' fill='orangered' />"  
 	
-	display_text = display_text + "<polygon points='"+(lineX+23*baisu)+","+(lineY+47*baisu)+" "+(lineX+47*baisu)+","+(lineY+23*baisu)+" "+(lineX+48*baisu)+","+(lineY+72*baisu)+"' stroke='navy' fill='navy' />"
-	display_text = display_text + "<polygon points='"+(lineX+72*baisu)+","+(lineY+48*baisu)+" "+(lineX+47*baisu)+","+(lineY+23*baisu)+" "+(lineX+48*baisu)+","+(lineY+72*baisu)+"' stroke='navy' fill='navy' />"
-	display_text = display_text + "<polygon points='"+(lineX+37*baisu)+","+(lineY+83*baisu)+" "+(lineX+82*baisu)+","+(lineY+37*baisu)+" "+(lineX+92*baisu)+","+(lineY+92*baisu)+"' stroke='navy' fill='navy' />"
+	display_text = display_text + "<polygon points='"+(lineX+23*baisu)+","+(lineY+47*baisu)+" "+(lineX+47*baisu)+","+(lineY+23*baisu)+" "+(lineX+48*baisu)+","+(lineY+72*baisu)+"' stroke='orangered' fill='orangered' />"
+	display_text = display_text + "<polygon points='"+(lineX+72*baisu)+","+(lineY+48*baisu)+" "+(lineX+47*baisu)+","+(lineY+23*baisu)+" "+(lineX+48*baisu)+","+(lineY+72*baisu)+"' stroke='orangered' fill='orangered' />"
+	display_text = display_text + "<polygon points='"+(lineX+37*baisu)+","+(lineY+83*baisu)+" "+(lineX+82*baisu)+","+(lineY+37*baisu)+" "+(lineX+92*baisu)+","+(lineY+92*baisu)+"' stroke='orangered' fill='orangered' />"
 
-	display_text = display_text + "<polygon points='"+(lineX-23*baisu)+","+(lineY+47*baisu)+" "+(lineX-47*baisu)+","+(lineY+23*baisu)+" "+(lineX-48*baisu)+","+(lineY+72*baisu)+"' stroke='navy' fill='navy' />"
-	display_text = display_text + "<polygon points='"+(lineX-72*baisu)+","+(lineY+48*baisu)+" "+(lineX-47*baisu)+","+(lineY+23*baisu)+" "+(lineX-48*baisu)+","+(lineY+72*baisu)+"' stroke='navy' fill='navy' />"
-	display_text = display_text + "<polygon points='"+(lineX-37*baisu)+","+(lineY+83*baisu)+" "+(lineX-82*baisu)+","+(lineY+37*baisu)+" "+(lineX-92*baisu)+","+(lineY+92*baisu)+"' stroke='navy' fill='navy' />"
+	display_text = display_text + "<polygon points='"+(lineX-23*baisu)+","+(lineY+47*baisu)+" "+(lineX-47*baisu)+","+(lineY+23*baisu)+" "+(lineX-48*baisu)+","+(lineY+72*baisu)+"' stroke='orangered' fill='orangered' />"
+	display_text = display_text + "<polygon points='"+(lineX-72*baisu)+","+(lineY+48*baisu)+" "+(lineX-47*baisu)+","+(lineY+23*baisu)+" "+(lineX-48*baisu)+","+(lineY+72*baisu)+"' stroke='orangered' fill='orangered' />"
+	display_text = display_text + "<polygon points='"+(lineX-37*baisu)+","+(lineY+83*baisu)+" "+(lineX-82*baisu)+","+(lineY+37*baisu)+" "+(lineX-92*baisu)+","+(lineY+92*baisu)+"' stroke='orangered' fill='orangered' />"
 	
-	display_text = display_text + "<polygon points='"+(lineX-23*baisu)+","+(lineY-47*baisu)+" "+(lineX-47*baisu)+","+(lineY-23*baisu)+" "+(lineX-48*baisu)+","+(lineY-72*baisu)+"' stroke='navy' fill='navy' />"
-	display_text = display_text + "<polygon points='"+(lineX-72*baisu)+","+(lineY-48*baisu)+" "+(lineX-47*baisu)+","+(lineY-23*baisu)+" "+(lineX-48*baisu)+","+(lineY-72*baisu)+"' stroke='navy' fill='navy' />"
-	display_text = display_text + "<polygon points='"+(lineX-37*baisu)+","+(lineY-83*baisu)+" "+(lineX-82*baisu)+","+(lineY-37*baisu)+" "+(lineX-92*baisu)+","+(lineY-92*baisu)+"' stroke='navy' fill='navy' />"
+	display_text = display_text + "<polygon points='"+(lineX-23*baisu)+","+(lineY-47*baisu)+" "+(lineX-47*baisu)+","+(lineY-23*baisu)+" "+(lineX-48*baisu)+","+(lineY-72*baisu)+"' stroke='orangered' fill='orangered' />"
+	display_text = display_text + "<polygon points='"+(lineX-72*baisu)+","+(lineY-48*baisu)+" "+(lineX-47*baisu)+","+(lineY-23*baisu)+" "+(lineX-48*baisu)+","+(lineY-72*baisu)+"' stroke='orangered' fill='orangered' />"
+	display_text = display_text + "<polygon points='"+(lineX-37*baisu)+","+(lineY-83*baisu)+" "+(lineX-82*baisu)+","+(lineY-37*baisu)+" "+(lineX-92*baisu)+","+(lineY-92*baisu)+"' stroke='orangered' fill='orangered' />"
 }
 
 function display21(){
-	display_text = display_text + "<circle cx='"+lineX+"' cy='"+lineY+"' r='" +29*baisu+"' fill='navy' />";  
+	display_text = display_text + "<circle cx='"+lineX+"' cy='"+lineY+"' r='" +29*baisu+"' fill='orangered' />";  
 	display_text = display_text + pos0_line();
 	display_text = display_text + pos1_line();
 	display_text = display_text + pos2_line();
@@ -633,7 +633,7 @@ function pos0_line(){
 	(lineX-32*baisu)+","+(lineY-85*baisu)+" "+
 	(lineX-17*baisu)+","+(lineY-85*baisu)+" "+
 	(lineX-17*baisu)+","+(lineY-50*baisu)+
-	"' stroke='blue' fill='none' />";
+	"' stroke='fuchsia' fill='none' />";
 }
 
 function pos1_line(){
@@ -646,7 +646,7 @@ function pos1_line(){
 	(lineX+37*baisu)+","+(lineY-83*baisu)+" "+
 	(lineX+48*baisu)+","+(lineY-72*baisu)+" "+
 	(lineX+23*baisu)+","+(lineY-47*baisu)+
-	"' stroke='blue' fill='none' />";
+	"' stroke='fuchsia' fill='none' />";
 }
 
 function pos2_line(){
@@ -659,7 +659,7 @@ function pos2_line(){
 	(lineX+85*baisu)+","+(lineY-32*baisu)+" "+
 	(lineX+85*baisu)+","+(lineY-17*baisu)+" "+
 	(lineX+50*baisu)+","+(lineY-17*baisu)+
-	"' stroke='blue' fill='none' />";
+	"' stroke='fuchsia' fill='none' />";
 }
 
 function pos3_line(){
@@ -672,7 +672,7 @@ function pos3_line(){
 	(lineX+83*baisu)+","+(lineY+37*baisu)+" "+
 	(lineX+72*baisu)+","+(lineY+48*baisu)+" "+
 	(lineX+47*baisu)+","+(lineY+23*baisu)+
-	"' stroke='blue' fill='none' />";
+	"' stroke='fuchsia' fill='none' />";
 }
 
 function pos4_line(){
@@ -685,7 +685,7 @@ function pos4_line(){
 	(lineX-32*baisu)+","+(lineY+85*baisu)+" "+
 	(lineX-17*baisu)+","+(lineY+85*baisu)+" "+
 	(lineX-17*baisu)+","+(lineY+50*baisu)+
-	"' stroke='blue' fill='none' />";
+	"' stroke='fuchsia' fill='none' />";
 }
 
 function pos5_line(){
@@ -698,7 +698,7 @@ function pos5_line(){
 	(lineX-83*baisu)+","+(lineY+37*baisu)+" "+
 	(lineX-72*baisu)+","+(lineY+48*baisu)+" "+
 	(lineX-47*baisu)+","+(lineY+23*baisu)+
-	"' stroke='blue' fill='none' />";
+	"' stroke='fuchsia' fill='none' />";
 }
 
 function pos6_line(){
@@ -711,7 +711,7 @@ function pos6_line(){
 	(lineX-85*baisu)+","+(lineY-32*baisu)+" "+
 	(lineX-85*baisu)+","+(lineY-17*baisu)+" "+
 	(lineX-50*baisu)+","+(lineY-17*baisu)+
-	"' stroke='blue' fill='none' />";
+	"' stroke='fuchsia' fill='none' />";
 }
 
 function pos7_line(){
@@ -724,11 +724,11 @@ function pos7_line(){
 	(lineX-37*baisu)+","+(lineY-83*baisu)+" "+
 	(lineX-48*baisu)+","+(lineY-72*baisu)+" "+
 	(lineX-23*baisu)+","+(lineY-47*baisu)+
-	"' stroke='blue' fill='none' />";
+	"' stroke='fuchsia' fill='none' />";
 }
 
 function pos8_line(){
-	return "<circle cx='"+lineX+"' cy='"+lineY+"' r='" +30*baisu+"' stroke='blue' fill='none' />";
+	return "<circle cx='"+lineX+"' cy='"+lineY+"' r='" +30*baisu+"' stroke='fuchsia' fill='none' />";
 }
 
 </script>
